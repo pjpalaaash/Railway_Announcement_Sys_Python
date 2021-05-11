@@ -1,0 +1,10 @@
+Modules Requirements:
+Pyaudio
+pandas
+pydub
+os
+gtts
+pyxlrd
+
+Much needed:
+"ffmpeg" and set the bin path.
