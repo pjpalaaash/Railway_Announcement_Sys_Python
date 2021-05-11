@@ -3,12 +3,6 @@ import pandas as pd
 from pydub import AudioSegment
 from gtts import gTTS
 
-# pip install pyaudio
-# pip install pydub
-# pip install pandas
-# pip install gTTS
-
-
 def textToSpeech(text, filename):
     mytext = str(text)
     language = 'hi'
@@ -27,7 +21,7 @@ def generateSkeleton():
     
     audio = AudioSegment.from_mp3('railway.mp3')
 
-    # 1 - Generate kripya dheyan dijiye
+    # 1 - Generate kripya dhyan dijiye
     start = 88000
     finish = 90200
     audioProcessed = audio[start:finish]
@@ -51,7 +45,7 @@ def generateSkeleton():
 
     # 6 is to-city
 
-    # 7 - Generate ko jaane wali gaadi sakhya
+    # 7 - Generate ko jaane wli gaadi sankhyaa
     start = 96000
     finish = 98900
     audioProcessed = audio[start:finish]
@@ -67,7 +61,7 @@ def generateSkeleton():
 
     # 10 is platform number
 
-    # 11 - Generate par aa rahi hai
+    # 11 - Generate pr aa rhi h
     start = 109000
     finish = 112250
     audioProcessed = audio[start:finish]
